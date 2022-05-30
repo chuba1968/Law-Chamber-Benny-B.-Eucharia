@@ -1,0 +1,19 @@
+{
+  "appId": "io.Bennybony.app",
+  "appName": "Bennybony Chambers",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 4000,
+      "launchAutoHide": false,
+      "androidSpinnerStyle": "large",
+      "iosSpinnerStyle": "small",
+      "spinnerColor": "#999999",
+      "showSpinner": true,
+      "splashFullScreen": true
+    }
+  },
+  "cordova": {}
+}

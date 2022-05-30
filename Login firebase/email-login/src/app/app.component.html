@@ -1,0 +1,64 @@
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-content>
+
+
+        <ion-list >
+          <ion-item  [routerLink]="['/getlegalservices']">
+            <ion-icon name="cart" slot="start" color="primary"></ion-icon>
+            <ion-label>Services</ion-label>
+          </ion-item>
+          <ion-item [routerLink]="['/profile']">
+            <ion-icon name="newspaper" slot="start" color="primary" ></ion-icon>
+            <ion-label>Our Profile</ion-label>
+          </ion-item>
+          <ion-item consultants [routerLink]="['/partners']">
+            <ion-icon name="person-circle" slot="start" color="primary"></ion-icon>
+            <ion-label>Our Partners</ion-label>
+          </ion-item>
+
+          <a href="tel:+2348066053162">
+            <ion-item>
+              <ion-icon name="phone-portrait" slot="start" color="primary"></ion-icon>
+              <ion-label>Contact Us</ion-label>
+            </ion-item>
+
+          </a>
+
+
+        </ion-list>
+
+
+
+
+        <div class="footer">
+
+          <div class="header">
+            <img src="/assets/images/Screen22Asset 7mdpi.png" alt=""/>
+              </div>
+              <div class="footer-app-version">
+                <H5>BennyBonny Chambers</H5>
+             </div>
+
+              <div>
+
+              </div>
+
+
+
+
+      </div>
+
+      </ion-content>
+    </ion-menu>
+
+    <ion-router-outlet id="main-content">
+
+    </ion-router-outlet>
+
+  </ion-split-pane>
+
+</ion-app>
+
+

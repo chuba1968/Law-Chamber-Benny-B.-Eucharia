@@ -1,0 +1,39 @@
+ion-content {
+    --background:  #023e8a;
+}
+
+ion-toolbar {
+  --background:  #023e8a;
+
+}
+
+ion-slides {
+    height: 100%;
+    --bullet-background-active: #fff;
+    --bullet-background: #000;
+}
+
+img {
+    padding: 5px;
+    width: 250px;
+  }
+
+
+  ion-icon{
+    font-size: 50px;
+  }
+
+  p{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  p{
+    font-family:OpenSans;
+
+  }
+
+  h1
+  {
+    font-family:OpenSans-Bold;
+  }

@@ -1,0 +1,35 @@
+
+<ion-header>
+  <ion-toolbar> <ion-buttons slot="start">
+    <ion-back-button defaultHref="/folder"></ion-back-button>
+  </ion-buttons>
+
+  <ion-buttons slot="end"  >
+    <angular4-paystack
+    [email]="'mailexample@mail.com'"
+    [amount]="50000"
+    [ref]="reference"
+    [channels]="['bank']"
+    (onClose)="paymentCancel()"
+    (callback)="paymentDone($event)"
+  >
+  <ion-icon slot="start" name="cart-outline"></ion-icon>
+
+
+  </angular4-paystack>
+
+
+
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+<br>
+
+
+
+
+</ion-content>

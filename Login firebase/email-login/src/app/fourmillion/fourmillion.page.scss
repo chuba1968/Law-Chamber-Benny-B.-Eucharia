@@ -1,0 +1,37 @@
+ion-toolbar {
+    --background: #023e8a !important;
+  }
+  
+  ion-back-button{
+    --color: white !important;
+  }
+  
+  ion-icon {
+    color: rgb(255, 255, 255) !important;
+  }
+  
+  .element {
+  
+    transform: translateY(-20px);
+  }
+  
+  
+  p{
+    font-family:OpenSans;
+  
+  }
+  
+  h1
+  {
+    font-family:OpenSans-Bold;
+  }
+  
+  /* DOES NOT WORK - not specific enough */
+  .alert-wrapper {
+    background: #e5e5e5;
+  }
+  /* Works - pass "my-custom-class" in cssClass to increase specificity */
+  .my-custom-class{
+    background: #e5e5e5;
+  }
+  

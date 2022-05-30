@@ -1,0 +1,41 @@
+
+
+<ion-header>
+  <ion-toolbar> <ion-buttons slot="start">
+    <ion-back-button defaultHref="/folder"></ion-back-button>
+  </ion-buttons>
+  <ion-buttons slot="end" >
+    <ion-icon slot="start" name="information-circle" (click)="showAlert()"></ion-icon>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <img src="/assets/images/svg.png" alt="" srcset="">
+
+  <ion-grid> <ion-row>
+    <ion-col>
+    </ion-col>
+    <ion-col>
+      <div class="element"><img src="/assets/images/favpng_coat-of-arms-of-nigeria-flag-of-nigeria-national-symbol.png" ></div>
+
+    </ion-col>
+    <ion-col>
+    </ion-col>
+  </ion-row>
+
+
+</ion-grid>
+
+<h2 style="text-align: center;">Hide Office Address from the public</h2>
+
+
+<p class="ion-padding">
+  <ion-button expand="block" class="ion-padding" (click)="openBrowserhideaddress()" class="routes"> <ion-icon slot="end" name="arrow-forward"></ion-icon> <p>Yes</p> </ion-button>
+  <br>
+
+  <ion-button expand="block" class="ion-padding" (click)="openBrowser()" class="routes"> <ion-icon slot="end" name="arrow-forward"></ion-icon> <p>No</p> </ion-button>
+  <br>
+</p>
+
+</ion-content>
+
